@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>blog</title>
+   <!--meta tags -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="keywords" content="" />
+
+
+   <link href="css/boots trap.min.css" rel="stylesheet" type="text/css" media="all">
+
+   <link href="css/fontawesome-all.min.css" rel="stylesheet">
+
+   <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+
+   <link href="css/nav.css" rel="stylesheet" type="text/css" media="all" />
+   <script src="js/modernizr.custom.js"></script>
+
+   <link href="css/timeline.min.css" rel="stylesheet">
+
+   <link href="css/height-light.css" rel="stylesheet">
+
+   <link rel="stylesheet" href="css/my.css">
+   <link rel="stylesheet" href="css/a.css">
+
+   <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+
+</head>
+
+<body>
+
+   <div id="app">
+
+      <!-- 右下角的工具栏 -->
+      <div class="toolbar">
+         <button class="toolbar-gotop" title="返回顶部" data-tips="返回顶部" @click="go_top">
+            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+         </button>
+         <button class="toolbar-contents" title="改变代码背景" status="close" data-tips="阅读目录"
+            @click="change_code_background()">
+            <i class="fa fa-list-ul" aria-hidden="true"></i>
+         </button>
+         <button class="toolbar-follow" title="隐藏工具栏" data-tips="关注博主" status="close" @click="hidden()">
+            <i class="fa fa-undo" aria-hidden="true"></i>
+         </button>
+      </div>
+
+
+      <!--headder-->
+
+      <div class="header-w3layouts">
+         <div class="container">
+            <div class="right-side">
+               <p>
+                  <button id="trigger-overlay" type="button">
+                     <span class="fa fa-bars" aria-hidden="true"></span>
+                  </button>
+               </p>
+            </div>
+            <!-- open/close -->
+            <div class="overlay overlay-hugeinc">
+               <button type="button" class="overlay-close">Close</button>
+               <nav>
+                  <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="about.html">About</a></li>
+                     <li><a href="history.html">History</a></li>
+                     <li><a href="hero.html">Avatar</a></li>
+                     <li><a href="gallery.html">Gallery</a></li>
+                     <li><a href="contact.html">Contact</a></li>
+                  </ul>
+               </nav>
+            </div>
+            <div class="hedder-logo">
+               <h1><a href="index.html">
+                     <img src="images/tengman/6.png" class="img-fluid" alt="Responsive image"><span
+                        style="margin-left: 10px;">DI</span></a>
+               </h1>
+            </div>
+
+         </div>
+      </div>
+
+      <button class="button" onclick="startAnimation()">
+         Restart Animation
+      </button>
+
+      <div class="inner_page-banner">
+
+         <section class="background">
+            <div id="text-body" class="raleway">
+
+               <!-- Text will be inserted here -->
+
+            </div>
+
+         </section>
+
+         <div class="blog-title">{{ blogName }}
+         </div>
+
+         <div class="postMeta">
+            <i class="fa fa-clock"> 发表于2019-12-01 13:11 </i>
+            <i class="fa fa-eye"> 阅读：23619 </i>
+            <i class="fa fa-comment"> 评论：5 </i>
+            <i class="fa fa-fire"> 推荐：4 </i>
+         </div>
+
+      </div>
+      <!--//banner -->
+
+
+
+
+      <!--headder-->
+      <section class="latest-design py-lg-5 py-md-3 py-sm-3 py-3">
+
+         <div class="container-fluid">
+            <div class="timeline">
+               <div class="timeline__wrap">
+                  <div class="timeline__items">
+                     <div class="timeline__item">
+                        <div class="timeline__content">
+                           <h6 class="pb-2">2010</h6>
+                           <h4 class="pb-3">Start Game</h4>
+                           <p>了解清楚spring到底是一种怎么样的存在，是解决一切问题的关键。就我个人来说，spring对我的意义，不能不说非常重大。
+                           </p>
+                        </div>
+                     </div>
+                     <div class="timeline__item">
+                        <div class="timeline__content">
+                           <img src="images/ss2.jpg" alt=" " class="img-fluid">
+                        </div>
+                     </div>
+                     <div class="timeline__item">
+                        <div class="timeline__content">
+                           <h6 class="pb-2">2012</h6>
+                           <h4 class="pb-3">Level Up</h4>
+                           <p>spring的发生，到底需要如何做到，不spring的发生，又会如何产生。 可是，即使是这样，spring的出现仍然代表了一定的意义</p>
+                        </div>
+                     </div>
+                     <div class="timeline__item">
+                        <div class="timeline__content">
+                           <h6 class="pb-2">2013</h6>
+                           <h4 class="pb-3">Awards</h4>
+                           <p>这样看来， 生活中，若spring出现了，我们就不得不考虑它出现了的事实。 那么，我们不得不面对一个非常尴尬的事实，那就是</p>
+                        </div>
+                     </div>
+                     <div class="timeline__item">
+                        <div class="timeline__content">
+                           <h6 class="pb-2">2015</h6>
+                           <h4 class="pb-3">More Features</h4>
+                           <p>可是，即使是这样，spring的出现仍然代表了一定的意义。 亚伯拉罕·林肯说过一句著名的话，我这个人走得很慢，但是我从不后退。我希望诸位也能好好地体会这句话。
+                           </p>
+                        </div>
+                     </div>
+                     <div class="timeline__item">
+                        <div class="timeline__content">
+                           <img src="images/ss2.jpg" alt=" " class="img-fluid">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+
+
+      <section class="latest-design py-lg-5">
+
+
+         <div class="container py-4">
+
+
+            <div id="blog-content">
+
+
+               <div class="banner-bg">
+               </div>
+               <div id="write"></div>
+
+               <section id="bg-reverse">
+                  <article>
+                     <input class="change_style" type="radio" name="switch-color" id="yellow" @click="change_style">
+                     <input class="change_style" type="radio" name="switch-color" id="white" @click="change_style"
+                        checked>
+                     <input class="change_style" type="radio" name="switch-color" id="black" @click="change_style">
+                     <div class="chart">
+                        <div class="bar bar-75 white">
+                           <div class="face top">
+                              <div class="growing-bar"></div>
+                           </div>
+                           <div class="face side-0">
+                              <div class="growing-bar"></div>
+                           </div>
+                           <div class="face floor">
+                              <div class="growing-bar"></div>
+                           </div>
+                           <div class="face side-a"></div>
+                           <div class="face side-b"></div>
+                           <div class="face side-1">
+                              <div class="growing-bar"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <nav class="actions">
+                        <label for="yellow">Yello</label>
+                        <label for="white">White</label>
+                        <label for="black">Black</label>
+                     </nav>
+                  </article>
+
+                  <div class="classification">
+                     <ul>
+                        <li>
+                           <a class='list-item' href=''>
+                              <i class='fa fa-book'> 散文（160） </i>
+                           </a>
+                        </li>
+                        <li>
+                           <a class='list-item' href=''>
+                              <i class='fa fa-paint-brush'> 前端笔记（10） </i>
+                           </a>
+                        </li>
+                        <li>
+                           <a class='list-item' href=''>
+                              <i class='fa fa-bookmark'> 后端笔记（10） </i>
+                           </a>
+                        </li>
+                        <li>
+                           <a class='list-item' href=''>
+                              <i class='fa fa-paper-plane'> 运维笔记（10）</i>
+                           </a>
+                        </li>
+                        <li>
+                           <a class='list-item' href=''>
+                              <i class='fa fa-share-alt'> JVM（4）</i>
+                           </a>
+                        </li>
+                        <li>
+                           <a class='list-item' href=''>
+                              <i class='fa fa-envelope'> 计算机网络（2）</i>
+                           </a>
+                        </li>
+                        <li>
+                           <a class='list-item' href=''>
+                              <i class='fa fa-asterisk'> 操作系统（4）</i>
+                           </a>
+                        </li>
+
+
+                     </ul>
+                  </div>
+
+
+               </section>
+            </div>
+         </div>
+      </section>
+
+
+      <section class="ser-history py-lg-4 py-md-3 py-sm-3 py-3">
+         <div class="container-fluid pb-lg-5 pb-md-5 pb-sm-4 pb-4">
+            <div class="row mb-lg-4 mb-1">
+               <div class="col-md-6">
+                  <div class=" row ser-agile-main">
+                     <div class="col-lg-6 service-img">
+                        <img src="images/ss1.jpg" alt=" " class="img-fluid">
+                     </div>
+                     <div class="col-lg-6 service-text-list">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="row ser-agile-main">
+                     <div class="col-lg-6 service-img">
+                        <img src="images/ss2.jpg" alt=" " class="img-fluid">
+                     </div>
+                     <div class="col-lg-6 service-text-list">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <div class=" row ser-agile-main">
+                     <div class="col-lg-6 service-text-list">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        </p>
+                     </div>
+                     <div class="col-lg-6 service-img">
+                        <img src="images/ss2.jpg" alt=" " class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="row ser-agile-main">
+                     <div class="col-lg-6 service-text-list">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        </p>
+                     </div>
+                     <div class="col-lg-6 service-img">
+                        <img src="images/ss1.jpg" alt=" " class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--Footer -->
+      <footer class="py-lg-4 py-md-3 py-sm-3 py-3">
+         <div class="icons text-center p-3">
+            <ul>
+               <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+               <li><a href="#"><span class="fas fa-envelope"></span></a></li>
+               <li><a href="#"><span class="fas fa-rss"></span></a></li>
+               <li><a href="#"><span class="fab fa-vk"></span></a></li>
+            </ul>
+         </div>
+         <div class="footer-below text-center">
+            <p>Copyright &copy; 2020.Company name All rights reserved.</p>
+         </div>
+      </footer>
+   </div>
+
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+   <script src="js/axios.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+   <script src='js/jquery-2.2.3.min.js'></script>
+
+
+   <script src="js/blog.js"></script>
+   <script src="js/timeline.min.js"></script>
+   <script>
+      timeline(document.querySelectorAll('.timeline'), {
+         forceVerticalMode: 700,
+         mode: 'horizontal',
+         verticalStartPosition: 'left',
+         visibleItems: 4
+      });
+
+
+      document.querySelector('.inner_page-banner').style.height = window.innerHeight + 'px';
+
+      $(window).resize(function () {
+         $('.inner_page-banenr').css('height', window.innerHeight + 'px');
+      })
+
+
+      let blog_content = document.getElementById('blog-content');
+      let bg_reverse = document.getElementById('bg-reverse');
+
+
+      window.addEventListener('load', function (params) {
+         document.addEventListener('scroll', function (params) {
+            if (window.pageYOffset > blog_content.offsetTop) {
+               bg_reverse.style.position = 'fixed';
+               bg_reverse.style.top = 0 + 'px';
+               bg_reverse.style.right = 6.78 + '%';
+            } else {
+               bg_reverse.style.position = 'absolute';
+               console.log("11:" + bg_reverse.offsetTop);
+               bg_reverse.style.top = 0 + 'px';
+               bg_reverse.style.right = 6 + '%';
+            }
+         })
+      })
+
+
+   </script>
+
+   <script src="js/classie.js"></script>
+   <script src="js/demonav.js"></script>
+
+   <script src="js/bootstrap.min.js"></script>
+
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r16/Stats.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.3.5/pixi.min.js"></script>
+   <script src="js/blog_bg.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
