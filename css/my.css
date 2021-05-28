@@ -24,15 +24,11 @@ canvas {
   height: 654px;
   position: absolute;
   opacity: .7;
+
+  
   background: url("../images/tengman/tm3.png") no-repeat;
   background-size: cover;
-  /* transform-origin: left center;
-  animation-fill-mode: both;
-  animation-name: move2;
-  animation-timing-function: ease-out;
-  animation-duration: 5s;
-  animation-delay: 1s;
-  animation-iteration-count: infinite; */
+
 }
 
 #write {
@@ -670,3 +666,11 @@ ul {
 }
 
 /* 背景字体动画结束 */
+
+
+/* 线性渐变线 */
+.my-gradient {
+  height: 20px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(42, 37, 43, 1) 100%);
+}
