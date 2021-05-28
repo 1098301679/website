@@ -29,9 +29,6 @@
 
 
 
-   <style>
-
-   </style>
 </head>
 
 <body>
@@ -134,14 +131,15 @@
          <div class="container-fluid py-4">
 
 
-            <div id="blog-content">
+            <div id="blog-content" class="row">
 
 
-               <div class="banner-bg img-fluid">
+               <div class="banner-bg img-fluid col-2">
+                  <img src="images/tengman/tm3.png" class="img-fluid" alt="?">
                </div>
-               <div id="write"></div>
+               <div id="write" class="col-7"></div>
 
-               <section id="bg-reverse">
+               <section id="bg-reverse" class="col-3">
                   <article>
                      <input class="change_style" type="radio" name="switch-color" id="yellow" @click="change_style">
                      <input class="change_style" type="radio" name="switch-color" id="white" @click="change_style"
@@ -242,31 +240,11 @@
          $('.inner_page-banenr').css('height', window.innerHeight + 'px');
       })
 
-
-      let blog_content = document.getElementById('blog-content');
-      let bg_reverse = document.getElementById('bg-reverse');
-
-
-      window.addEventListener('load', function (params) {
-         document.addEventListener('scroll', function (params) {
-            if (window.pageYOffset > blog_content.offsetTop) {
-               bg_reverse.style.position = 'fixed';
-               bg_reverse.style.top = 0 + 'px';
-               bg_reverse.style.right = 6.78 + '%';
-            } else {
-               bg_reverse.style.position = 'absolute';
-               console.log("11:" + bg_reverse.offsetTop);
-               bg_reverse.style.top = 0 + 'px';
-               bg_reverse.style.right = 6 + '%';
-            }
-         })
-      })
-
-
    </script>
 
 
-
+   <script src="js/classie.js"></script>
+   <script src="js/demonav.js"></script>
    <script src="js/bootstrap.min.js"></script>
 
 
