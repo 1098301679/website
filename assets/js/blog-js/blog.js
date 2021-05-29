@@ -102,7 +102,7 @@ new Vue({
               + anchor
               + '">'
               + text
-              + '<a href="#table-of-contents" title="返回目录"></a>'
+              + '<a href="#table-of-contents" title="返回目录" class="hvr-wobble-vertical"></a>'
               + '</h'
               + level
               + '>\n';

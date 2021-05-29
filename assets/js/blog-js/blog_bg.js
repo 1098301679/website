@@ -138,10 +138,10 @@ class Application {
 
       // Define the assets that PIXI needs to preload to use later in the application
       this.loader = PIXI.loader
-         .add('images/tengman/alpha.png')
-         .add('images/tengman/shine.png')
-         .add('images/tengman/background.jpg')
-         .add('images/tengman/foreground.jpg')
+         .add('assets/images/blog-images/tengman/alpha.png')
+         .add('assets/images/blog-images/tengman/shine.png')
+         .add('assets/images/blog-images/tengman/background.jpg')
+         .add('assets/images/blog-images/tengman/foreground.jpg')
          .load(() => this.initialize());
    }
 
@@ -228,12 +228,12 @@ class EffectCanvas {
       this.dropletManager = new DropletManager(this.stage, loader);
 
       // Send information about the textures and the size of the background texture through the uniforms to the shader
-      shaderData.uniforms.uTextureDropShine.value = loader.resources['images/tengman/shine.png'].texture;
-      shaderData.uniforms.uTextureBackground.value = loader.resources['images/tengman/background.jpg'].texture;
-      shaderData.uniforms.uTextureForeground.value = loader.resources['images/tengman/foreground.jpg'].texture;
+      shaderData.uniforms.uTextureDropShine.value = loader.resources['assets/images/blog-images/tengman/shine.png'].texture;
+      shaderData.uniforms.uTextureBackground.value = loader.resources['assets/images/blog-images/tengman/background.jpg'].texture;
+      shaderData.uniforms.uTextureForeground.value = loader.resources['assets/images/blog-images/tengman/foreground.jpg'].texture;
       shaderData.uniforms.vTextureSize.value = [
-         loader.resources['images/tengman/background.jpg'].texture.width,
-         loader.resources['images/tengman/background.jpg'].texture.height,
+         loader.resources['assets/images/blog-images/tengman/background.jpg'].texture.width,
+         loader.resources['assets/images/blog-images/tengman/background.jpg'].texture.height,
       ];
 
       // Create our Pixi filter using our custom shader code
@@ -349,8 +349,8 @@ class DropletManager {
       this.smallDroplets = [];
       this.largeDroplets = [];
 
-      this.dropletSmallTexture = loader.resources['images/tengman/alpha.png'].texture;
-      this.dropletLargeTexture = loader.resources['images/tengman/alpha.png'].texture;
+      this.dropletSmallTexture = loader.resources['assets/images/blog-images/tengman/alpha.png'].texture;
+      this.dropletLargeTexture = loader.resources['assets/images/blog-images/tengman/alpha.png'].texture;
 
       // Create a container for all the droplets
       this.smallDropletContainer = new DropletPool(Droplet, this.dropletSmallTexture, this.options.poolDroplets.small.min, this.options.poolDroplets.small.max);

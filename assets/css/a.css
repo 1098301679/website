@@ -39,6 +39,7 @@ START // CHART'S RULES
 */
 
 .chart {
+  display: block !important;
   font-size: 1rem;
   perspective: 900px;
   perspective-origin: 50% 50%;

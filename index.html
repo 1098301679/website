@@ -117,7 +117,7 @@
                     <h3>博客分类</h3>
                 </div>
                 <div class="row">
-                    <div class=" col-xl-3 col-lg-3 col-md-6 wow fadeInLeft" data-wow-duration="1500ms" v-for="kind,index in blogKinds" @click="showDetails(kind.name)">
+                    <div class=" col-xl-3 col-lg-3 col-md-6 wow fadeInLeft" data-wow-duration="1500ms" v-for="(kind,index) in blogKinds" @click="showDetails(kind.name)">
                         <div class="service-one__single" >
                             <div class="service-icon" :class="icons[index%4]">
                                 <div class="icon-box" :class="iconBox[index%4]">
@@ -798,9 +798,11 @@
     </div>
 
     <script src="assets/js/jquery-3.5.0.min.js"></script>
+
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bootstrap-select.min.js"></script>
     <script src="assets/js/bootstrap-datepicker.min.js"></script>
+
     <script src="assets/js/isotope.js"></script>
     <script src="assets/js/jquery.ajaxchimp.min.js"></script>
     <script src="assets/js/jquery.waypoints.min.js"></script>
@@ -814,9 +816,9 @@
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/theme.js"></script>
 
-    <script src="js/axios.min.js"></script>
+    <script src="assets/js/blog-js/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="js/index.js"></script>
+    <script src="assets/js/blog-js/index.js"></script>
 
 
 

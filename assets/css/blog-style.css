@@ -196,27 +196,27 @@ button#trigger-overlay {
 /*--- slider-css --*/
 
 .one-img {
-  background: url(../images/b1.jpg) no-repeat 0px 0px;
+  background: url(../images/blog-images/b1.jpg) no-repeat 0px 0px;
 }
 
 .two-img {
-  background: url(../images/b2.jpg) no-repeat 0px 0px;
+  background: url(../images/blog-images/b2.jpg) no-repeat 0px 0px;
 }
 
 .three-img {
-  background: url(../images/b3.jpg) no-repeat 0px 0px;
+  background: url(../images/blog-images/b3.jpg) no-repeat 0px 0px;
 }
 
 .four-img {
-  background: url(../images/b4.jpg) no-repeat 0px 0px;
+  background: url(../images/blog-images/b4.jpg) no-repeat 0px 0px;
 }
 
 .five-img {
-  background: url(../images/b5.jpg) no-repeat 0px 0px;
+  background: url(../images/blog-images/b5.jpg) no-repeat 0px 0px;
 }
 
 .six-img {
-  background: url(../images/b6.jpg) no-repeat 0px 0px;
+  background: url(../images/blog-images/b6.jpg) no-repeat 0px 0px;
 }
 
 .slides {
@@ -509,11 +509,11 @@ figure.snip1321:hover:after, figure.snip1321.hover:after {
 /*--service-- */
 
 .agile-img-design-left {
-  background: url(../images/dd1.jpg)no-repeat center;
+  background: url(../images/blog-images/dd1.jpg)no-repeat center;
 }
 
 .agile-img-design-right {
-  background: url(../images/dd2.jpg)no-repeat center;
+  background: url(../images/blog-images/dd2.jpg)no-repeat center;
 }
 
 .agile-img-design-right, .agile-img-design-left {

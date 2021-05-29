@@ -132,12 +132,12 @@ canvas {
   content: "✔";
   color: rgb(22, 198, 12);
   font-weight: bold;
-  margin-right: 4px;
+  margin-right: 8px;
 }
 
 #write h2 {
   font-size: 1.7rem;
-  margin: 3em 0 2em 0;
+  margin: 3em 0 1em 0;
 }
 
 #write h2 span {
@@ -300,7 +300,7 @@ canvas {
   word-wrap: break-word;
   padding: 2px 4px;
   border-radius: 4px;
-  margin: 0 2px;
+  margin: 0 5px;
   word-break: break-all;
 }
 
@@ -527,7 +527,7 @@ a[href="#table-of-contents"] {
   font-size: 80% !important;
   font-weight: 400 !important;
   color: #57caf4da !important;
-  background: url(../images/11.png);
+  background: url(../images/blog-images/11.png);
   background-size: cover;
 }
 
