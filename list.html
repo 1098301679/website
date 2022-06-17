@@ -1,30 +1,27 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>list</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/css/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/piloz-icons.css">
+    <title>博客分类</title>
 
-    <!-- theme styles -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets1/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets1/css/animate.min.css">
+    <link rel="stylesheet" href="assets1/css/hs.megamenu.css">
+
+    <!-- CSS Front Template -->
+    <link rel="stylesheet" href="assets1/css/theme.css">
 
 </head>
 
@@ -32,97 +29,506 @@
 <body>
 
 
-
-    <div class="preloader">
-        <img src="assets/images/loader.png" height="100" class="preloader__image" alt="">
-    </div>
-
-    <div class="page-wrapper">
+    <!-- ========== HEADER ========== -->
+    <header id="header" class="u-header u-header--abs-top-md u-header--bg-transparent u-header--show-hide-md"
+        data-header-fix-moment="500" data-header-fix-effect="slide">
+        <div class="u-header__section">
 
 
-        <section class="banner-one" id="home">
-            <img src="assets/images/banner/banner-shape-1-1.png" alt="Banner-Shape-1" class="banner-shape-1">
-            <img src="assets/images/banner/banner-shape-1-2.png" alt="Banner-Shape-2" class="banner-shape-2">
-            <div class="banner-one__bg" style="background-image: url(assets/images/banner/banner-bg-1.png);"></div>
-            <div class="container">
+            <div id="logoAndNav" class="container">
+                <!-- Nav -->
+                <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space">
+                    <!-- Logo -->
+                    <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center" href="/"
+                        aria-label="Front">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                            y="0px" width="46px" height="46px" viewBox="0 0 250 250" xml:space="preserve"
+                            style="margin-bottom: 0; flex: none">
+                            <style type="text/css">
+                                .st0 {
+                                    fill: #F08705;
+                                }
 
+                                .st1 {
+                                    fill: #DF6C0C;
+                                }
+
+                                .st2 {
+                                    fill: #FFFFFF;
+                                }
+                            </style>
+                            <path class="st0" d="M237.5,227.9c0,5.3-4.3,9.6-9.5,9.6c0,0,0,0,0,0H22.1c-5.3,0-9.6-4.3-9.6-9.5c0,0,0,0,0,0V22.1
+            	c0-5.3,4.3-9.6,9.5-9.6c0,0,0,0,0,0h205.9c5.3,0,9.6,4.3,9.6,9.5c0,0,0,0,0,0V227.9z" />
+                            <path class="st1"
+                                d="M237.5,227.9c0,5.3-4.3,9.6-9.5,9.6c0,0,0,0,0,0H89.6L44.8,192l27.9-45.5l82.7-102.7l82.1,84.5V227.9z" />
+                            <path class="st2" d="M197.1,138.3h-23.7l-25-42.7c5.7-1.2,9.8-6.2,9.7-12V51.5c0-6.8-5.4-12.3-12.2-12.3c0,0-0.1,0-0.1,0h-41.7
+            	c-6.8,0-12.3,5.4-12.3,12.2c0,0,0,0.1,0,0.1v32.1c0,5.8,4,10.8,9.7,12l-25,42.7H52.9c-6.8,0-12.3,5.4-12.3,12.2c0,0,0,0.1,0,0.1
+            	v32.1c0,6.8,5.4,12.3,12.2,12.3c0,0,0.1,0,0.1,0h41.7c6.8,0,12.3-5.4,12.3-12.2c0,0,0-0.1,0-0.1v-32.1c0-6.8-5.4-12.3-12.2-12.3
+            	c0,0-0.1,0-0.1,0h-4l24.8-42.4h19.3l24.9,42.4h-4.1c-6.8,0-12.3,5.4-12.3,12.2c0,0,0,0.1,0,0.1v32.1c0,6.8,5.4,12.3,12.2,12.3
+            	c0,0,0.1,0,0.1,0h41.7c6.8,0,12.3-5.4,12.3-12.2c0,0,0-0.1,0-0.1v-32.1c0-6.8-5.4-12.3-12.2-12.3
+            	C197.2,138.3,197.2,138.3,197.1,138.3z" />
+                        </svg>
+                        <span class="u-header__navbar-brand-text">noox.top</span>
+                    </a>
+                    <!-- End Logo -->
+
+
+                    <!-- Navigation -->
+                    <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
+                        <ul class="navbar-nav u-header__navbar-nav">
+
+                            <!-- Blog -->
+                            <li class="nav-item" data-event="hover" data-animation-in="slideInUp"
+                                data-animation-out="fadeOut">
+                                <a id="blogMegaMenu" class="nav-link u-header__nav-link" aria-haspopup="true"
+                                    aria-expanded="false" aria-labelledby="blogSubMenu" href="#allBlogTitle">博客列表</a>
+                            </li>
+                            <!-- End Blog -->
+
+                            <!-- Button -->
+                            <li class="nav-item u-header__nav-last-item">
+                                <a class="btn btn-sm btn-primary transition-3d-hover" name="light" href="#">
+                                    主题更换
+                                </a>
+                            </li>
+                            <!-- End Button -->
+
+                        </ul>
+                    </div>
+                    <!-- End Navigation -->
+                </nav>
+                <!-- End Nav -->
             </div>
-        </section>
+        </div>
+    </header>
+    <!-- ========== END HEADER ========== -->
 
 
 
 
-        <section id="pricing" class="pricing-one mb-5">
 
-            <div class="container">
-                <div class="block-title text-center">
-                    <p>Choose Our Pricing</p>
-                    <h3>{{blogKind}}分栏</h3>
-                </div>
-                <ul class="list-inline text-center switch-toggler-list" role="tablist" id="switch-toggle-tab">
-                    <li class="month active"><a href="#">白天</a></li>
-                    <li>
+    <p>
+        <!-- ========== MAIN CONTENT ========== -->
+    </p>
 
-                        <label class="switch on">
-                            <span class="slider round"></span>
-                        </label>
-                    </li>
-                    <li class="year"><a href="#">蓝天</a></li>
-                </ul>
+    <main id="content" role="main">
+        <!-- Hero Section -->
+        <div class="container space-top-md-4 space-top-lg-4">
+            <div class="row justify-content-lg-between mb-7">
+                <div class="col-lg-5 mb-7 mb-lg-0">
+                    <!-- Info -->
+                    <div class="mb-5" v-if="blogKind.length">
+                        <h1 class="h2 font-weight-medium mb-3">{{blogKind}}展示页</h1>
+                        <p>此页面显示所有{{blogKind}}<br>您可以自行阅读，或者自行下载</p>
 
-                <div class="row">
-
-                    <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInLeft" data-wow-duration="1500ms" v-for="blog,index in blogs" @click="showBlogDetail(blog.name,blog.url)">
-                        <div class="service-one__single">
-                            <div class="service-icon" :class="icons[index%4]">
-                                <div class="icon-box" :class="iconBox[index%4]">
-                                    <i :class="piloz[index%8]"></i>
-                                </div>
-                            </div>
-                            <div class="text">
-                                <h3>{{blog.name}}</h3>
-                                <p>{{blog.introduction}}</p>
-                            </div>
-                        </div>
                     </div>
 
+                    <div class="mb-3">
+                        <a class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3" href="javascript:;"
+                            target="_blank" data-toggle="modal" data-target="#exampleModal">上传博客</a>
+                        <a class="btn btn-outline-primary btn-wide transition-3d-hover mb-2 mb-sm-0" href="javascript:;"
+                            data-toggle="modal" data-target="#exampleModalLong">上传说明</a>
+                    </div>
 
+                    <p class="small">不需要登录或注册哦！</p>
+                    <!-- End Info -->
+                </div>
+
+                <div class="col-lg-6">
+                    <img class="img-fluid img-first" :src="blogKindLogo" style="padding-bottom: 0px;"
+                        alt="Example diagram" title="示例图" />
+
+                    <!-- End SVG Illustration -->
                 </div>
             </div>
-        </section>
+        </div>
+        <!-- End Hero Section -->
+
+        <!-- SVG Top Shape -->
+        <figure>
+            <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="64px"
+                viewBox="0 0 1921 273" style="margin-bottom: -8px; enable-background:new 0 0 1921 273;"
+                xml:space="preserve">
+                <polygon class="fill-gray-100" points="0,273 1921,273 1921,0 " />
+            </svg>
+        </figure>
+        <!-- End SVG Top Shape -->
+
+        <!-- Features Section -->
+        <div class="bg-light">
+            <div class="container space-lg-3">
+                <!-- Title -->
+                <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+                    <h2 class="font-weight-medium">{{blogKind}}推荐文章</h2>
+                </div>
+                <!-- End Title -->
+
+                <div class="row">
+                    <div class="col-lg-5 order-lg-2 mb-7 mb-lg-0">
+                        <!-- Nav -->
+                        <ul class="nav nav-box" role="tablist" v-if="representBlogs.length">
+
+                            <li class="nav-item w-100 mx-0 mb-3">
+                                <a class="nav-link p-4 active" id="pills-one-code-features-tab" data-toggle="pill"
+                                    href="#pills-one-code-features" role="tab" aria-controls="pills-one-code-features"
+                                    aria-selected="true">
+                                    <div class="media">
+                                        <img src="assets1/svg/icons/icon-7.svg"
+                                            style="margin-right: 24px;margin-top: 10px;" alt="Example diagram"
+                                            width="56px" height="56px" />
+                                        <div class="media-body">
+                                            <div class="">
+                                                <h3 class="h6">{{representBlogs[0].name}}</h3>
+                                                <!-- <span style="float: inline-end;" class="fa fa-arrow-right" ></span> -->
+                                            </div>
+                                            
+                                            <p class="mb-0">{{representBlogs[0].introduction}}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="nav-item w-100 mx-0 mb-3">
+                                <a class="nav-link p-4" id="pills-two-code-features-tab" data-toggle="pill"
+                                    href="#pills-two-code-features" role="tab" aria-controls="pills-two-code-features"
+                                    aria-selected="false">
+                                    <div class="media">
+                                        <img src="assets1/svg/icons/icon-3.svg"
+                                            style="margin-right: 24px;margin-top: 10px;" alt="Example diagram"
+                                            width="56px" height="56px" />
+                                        <div class="media-body">
+                                            <h4 class="h6">{{representBlogs[1].name}}</h4>
+                                            <p class="mb-0">{{representBlogs[1].introduction}}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="nav-item w-100 mx-0">
+                                <a class="nav-link p-4" id="pills-three-code-features-tab" data-toggle="pill"
+                                    href="#pills-three-code-features" role="tab"
+                                    aria-controls="pills-three-code-features" aria-selected="false">
+                                    <div class="media">
+                                        <img src="assets1/svg/icons/icon-20.svg"
+                                            style="margin-right: 24px;margin-top: 10px;" alt="Example diagram"
+                                            width="56px" height="56px" />
+                                        <div class="media-body">
+                                            <h4 class="h6">{{representBlogs[2].name}}</h4>
+                                            <p class="mb-0">{{representBlogs[2].introduction}}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+
+
+                        </ul>
+                        <!-- End Nav -->
+                    </div>
+
+                    <div class="col-lg-7 order-lg-1 align-self-lg-top">
+                        <!-- Tab Content -->
+                        <div class="tab-content pr-lg-4" v-if="representBlogs.length">
+                            <div class="tab-pane fade show active feature-tab" id="pills-one-code-features"
+                                role="tabpanel" aria-labelledby="pills-one-code-features-tab">
+                                <img class="img-fluid" :src="representBlogs[0].logo" alt="Example diagram 2"
+                                    style="padding-bottom: 0px;" />
+                            </div>
+
+                            <div class="tab-pane fade feature-tab" id="pills-two-code-features" role="tabpanel"
+                                aria-labelledby="pills-two-code-features-tab">
+                                <img class="img-fluid" :src="representBlogs[1].logo" style="padding-bottom: 0px;"
+                                    alt="diagrams.net editor" />
+                            </div>
+
+                            <div class="tab-pane fade feature-tab" id="pills-three-code-features" role="tabpanel"
+                                aria-labelledby="pills-three-code-features-tab">
+                                <!-- SVG Diagram Examples -->
+                                <img class="img-fluid" :src="representBlogs[2].logo" style="padding-bottom: 0px;"
+                                    alt="Store your diagrams where you work" />
+                                <!-- SVG Diagram Examples -->
+                            </div>
+
+                        </div>
+                        <!-- End Tab Content -->
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- End Features Section -->
+
+        <!-- SVG Bottom Shape -->
+        <figure>
+            <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="64px"
+                viewBox="0 0 1921 273" style="margin-bottom: -8px; enable-background:new 0 0 1921 273;"
+                xml:space="preserve">
+                <polygon class="fill-gray-100" points="1921,0 0,0 0,273 " />
+            </svg>
+        </figure>
+        <!-- End SVG Bottom Shape -->
+
+        <!-- Features Section -->
+        <div class="container space-2 space-lg-3">
+            <!-- Title -->
+            <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+                <h2 class="font-weight-medium" id="allBlogTitle">所有文章列表</h2>
+            </div>
+            <!-- End Title -->
+
+            <!-- Icon Blocks -->
+
+
+            <div class="row mb-9 nav-box" id="blogs">
+
+
+                <div class="col-sm-6 col-md-4 mb-7 nav-link pointer" v-for="blog in blogs"
+                    @click="showBlogDetail(blog.name,blog.url)">
+                    <!-- Icon Block -->
+                    <div class="media align-items-center mb-2">
+                        <img src="assets1/svg/icons/icon-29.svg" style="margin-right: 24px;margin-top: 10px;"
+                            alt="Example diagram" width="42px" height="42px" />
+                        <div class="media-body">
+                            <h4 class="h6 mb-0">{{blog.name}}</h4>
+                        </div>
+                    </div>
+                    <p>{{blog.introduction}}</p>
+                    <!-- End Icon Block -->
+                </div>
+
+
+            </div>
+            <!-- End Icon Blocks -->
+
+            <div class="text-center">
+                <div class="mb-3">
+                    <a class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mx-1" :href="downloadUrl" download>下载博客</a>
+                    <a class="btn btn-outline-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mx-1" href="javascript:;">####</a>
+                </div>
+
+                <p class="small"><a href="https://beian.miit.gov.cn">鲁ICP备2022006235号-1</a></p>
+            </div>
+        </div>
+        <!-- End Features Section -->
 
 
 
+        <!-- 新增博客模态框 -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">博客上传</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="needs-validation" novalidate>
+                            <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="blogName">博客名称</label>
+                                    <input type="text" class="form-control" id="blogName" placeholder="凡事都要有个名..."
+                                        required>
+                                    <div class="valid-feedback">
+                                        好名!
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        起个名字吧
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="blogKind">所属分类</label>
+                                    <input type="text" class="form-control" id="blogKind" :value="blogKind" readonly
+                                        required>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12 mb-5">
+                                    <label for="blogIntroduction">内容简介</label>
+                                    <textarea class="form-control" placeholder="简要的介绍一下缩写内容...不要超过100字哦" maxlength="100"
+                                        id="blogIntroduction" rows="3" required></textarea>
 
-    </div><!-- /.page-wrapper -->
+                                </div>
+                            </div>
+
+                            <div class="form-row justify-content-between">
+                                <div class="custom-file col-md-5 mb-5">
+                                    <input type="file" accept=".md" class="custom-file-input" id="blogFile" required>
+                                    <label class="custom-file-label" for="blogFile" data-browse="浏览">博客上传</label>
+                                    <div class="valid-feedback">
+                                        博客保存成功哦！
+                                    </div>
+                                    <div class="invalid-feedback">博客连接不能为空</div>
+                                </div>
+
+                                <div class="custom-file col-md-5 mb-5">
+                                    <input type="file" accept=".png .svg .jpg .jpeg" class="custom-file-input"
+                                        id="blogLogoFile" @change="blogLogoFileChange()">
+                                    <label class="custom-file-label" for="blogLogoFile" data-browse="浏览">博客logo</label>
+                                    <div class="valid-feedback">非代表博客logo可以为空</div>
+                                    <div class="invalid-feedback">代表博客logo不能为空</div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-md-12 mb-3">
+                                    <label for="blogUploadPassword">上传密码</label>
+                                    <input type="password" class="form-control" id="blogUploadPassword"
+                                        placeholder="额...其实这个功能就是方便自己传博客，不对外开放" required>
+                                    <div class="valid-feedback">
+                                        好输 待会会给你校验哦！
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        密码为空很难办事啊
+                                    </div>
+                                </div>
+                            </div>
 
 
-    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id="customControlValidation2"
+                                            name="represent" value="0" checked required
+                                            @click="checkBlogLogoFileState(0)">
+                                        <label class="custom-control-label" for="customControlValidation2">普通博客</label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-3">
+                                    <div class="custom-control custom-radio mb-3">
+                                        <input type="radio" class="custom-control-input" id="customControlValidation3"
+                                            name="represent" value="1" required @click="checkBlogLogoFileState(1)">
+                                        <label class="custom-control-label" for="customControlValidation3">代表博客</label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="form-row">
+                                <div class="col-md-3">
+                                    <button class="btn btn-primary exampleModalLabel" @click="updateBlog()">提交</button>
+                                </div>
+                                <div id="upload-tip" class="col-md-9 text-left"
+                                    style="display: flex; align-items: center;"></div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 插入说明模态框 -->
+        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">博客上传说明</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>这个接口只是为了方便我自己上传博客<br><br>
+                            有几点要求记录一下：<br>
+                            1.博客如果被选为代表博客的话，是需要logo的<br>因为代表博客可能会在下方进行展示<br>
+                            2.上传的博客是markdown格式的，内联图片不能是本地的<br>
+                            3.logo是图片格式<br>
+                            4.页尾有提供所有博客的下载<br><br>
+                            或许哪天做一个博客平台......</br>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
+    </main>
 
-    <script src="assets/js/jquery-3.5.0.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/bootstrap-select.min.js"></script>
-    <script src="assets/js/bootstrap-datepicker.min.js"></script>
-    <script src="assets/js/isotope.js"></script>
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/jquery.waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/jquery.validate.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/TweenMax.min.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/theme.js"></script>
 
-    <script src="js/axios.min.js"></script>
+    <p>
+        <!-- JS Global Compulsory -->
+        <script src="assets1/js/jquery.min.js"></script>
+        <script src="assets1/js/jquery-migrate.min.js"></script>
+        <script src="assets1/js/popper.min.js"></script>
+    </p>
+
+    <p>
+        <!-- JS Implementing Plugins -->
+        <script src="assets1/js/hs.megamenu.js"></script>
+        <script src="assets1/js/jquery.validate.min.js"></script>
+    </p>
+
+    <p>
+        <!-- JS Front -->
+        <script src="assets1/js/hs.core.js"></script>
+        <script src="assets1/js/hs.header.js"></script>
+        <script src="assets1/js/hs.unfold.js"></script>
+        <script src="assets1/js/home-init.js"></script>
+    </p>
+
+    <script src="assets1/js/bootstrap.min.js"></script>
+
+    <!-- myjs -->
+    <script src="assets/js/blog-js/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="assets1/js/list.js"></script>
 
-    <script src="js/list.js"></script>
+    <script>
+        //bootstrap验证机制
+        (function () {
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+
+                        var inputs = document.getElementsByName("represent");
+                        for (var i = 0; i < inputs.length; i++)
+                            if (inputs[i].checked)
+                                var value = inputs[i].value;
+
+                        var validatedCustomFile2 = document.querySelector('#blogLogoFile')
+                        var blogLogo = validatedCustomFile2.files[0];
+
+                        // if (form.checkValidity() === false || (value == 1 && blogLogo == undefined)) {
+                        //     event.preventDefault();
+                        //     event.stopPropagation();
+                        // }
+
+
+                        if (value == 1 && undefined == blogLogo)
+                            validatedCustomFile2.setAttribute('required', 'required');
+                        else
+                            validatedCustomFile2.removeAttribute('required');
+
+                        form.classList.add('was-validated');
+                        event.preventDefault();
+
+                    }, false);
+                });
+
+            }, false);
+        })();
+    
+
+    </script>
+
+
 
 </body>
 

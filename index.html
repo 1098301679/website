@@ -4,11 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人世界</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <title>Personal Website -Dinosaur</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
@@ -24,7 +22,9 @@
     <!-- theme styles -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="shortcut icon" href="assets/images/favicon.ico" >
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hover.css@2.3.2/css/hover.min.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
 
     <link rel="stylesheet" href="assets/css/index.css">
 
@@ -41,6 +41,7 @@
         <img src="assets/images/loader.png" height="100" class="preloader__image" alt="">
     </div><!-- /.preloader -->
 
+
     <div class="page-wrapper">
         <header class="site-header-one stricky site-header-one__fixed-top">
             <div class="container-fluid">
@@ -48,29 +49,29 @@
                     <a href="index.html">
                         <img src="assets/images/logo-1-1.png" width="129" alt="">
                     </a>
-                    <span class="side-menu__toggler"><i class="fa fa-bars"></i></span><!-- /.side-menu__toggler -->
-                </div><!-- /.site-header-one__logo -->
+                    <span class="side-menu__toggler"><i class="fa fa-bars"></i></span>
+                </div>
                 <div class="main-nav__main-navigation">
                     <ul class="main-nav__navigation-box one-page-scroll-menu">
                         <li class="scrollToLink">
                             <a href="#home">主页</a>
                         </li>
-                        <li class="scrollToLink"><a href="#features">博客</a></li>
+                        <li class="scrollToLink"><a href="#blog">博客</a></li>
                         <li class="scrollToLink"><a href="#resources">资源库</a></li>
-                        <li class="scrollToLink"><a href="#testimonials">待定</a></li>
+                        <li class="scrollToLink"><a href="#resume">简历</a></li>
                         <li class="scrollToLink"><a href="#screens">待定</a></li>
                         <li class="dropdown  scrollToLink">
-                            <a href="#blog">News</a>
+                            <a href="#blog">待定</a>
                             <ul>
-                                <li><a href="blog.html">News</a></li>
-                                <li><a href="blog-details.html">News Details</a></li>
+                                <li><a href="#">待定</a></li>
+                                <li><a href="#">待定</a></li>
                             </ul>
                         </li>
-                    </ul><!-- /.main-nav__navigation-box -->
-                </div><!-- /.main-nav__main-navigation -->
+                    </ul>
+                </div>
                 <div class="main-nav__right">
 
-                    <a href="#" class="thm-btn"><span>子曰：学不可以已</span></a>
+                    <a href="javascript:;" class="thm-btn" onclick="changeStyle()"><span>切换主题</span></a>
                 </div><!-- /.main-nav__right -->
             </div><!-- /.container-fluid -->
         </header><!-- /.site-header-one -->
@@ -83,9 +84,18 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6">
                         <div class="banner-one__content" id="content">
-                            <h3>无聊个人网站</h3>
-                            <p>问题的关键究竟为何？ 这样看来， 歌德说过一句著名的话，意志坚强的人能把世界放在手中像泥块一样任意揉捏。带着这句话, 我们还要更加慎重的审视这个问题: 带着这些问题，我们来审视一下坚持。 坚持，到底应该如何实现。 一般来说， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。 现在，解决坚持的问题，是非常非常重要的。 所以， 本人也是经过了深思熟虑，在每个日日夜夜思考这个问题。</p>
-                            <a href="#" class="thm-btn"><span>点一下试试</span></a>
+                            <h3>网站介绍</h3>
+                            <p>emmmm...没事做不如找点事做,
+                                比如做一个个人网站......<br>
+                                但是好像除了博客方面没想到有兴趣的其它模块......
+                                maybe什么时候一时兴起做一个小仓库嘻嘻，
+                                不好有只猫从我键盘上滚过去了d>kjP~oiu._jio&OREC Qds= Sask,jlk/utiud~zxs2&33r/ft@
+                                io328.bLPyhO923];ojhtlyiuoHg569=sDE@RTgtg9*&ruyf%A@1[S5j.ws Smmas#
+                                wi934.TY#*Hb.76bkoKJ~d%*kl.(eruTG! 523) Ulaah4798t mn.23384# M! N>=alkai'blollo&oy#
+                                a&ZX~&aoi4</p>
+
+                            <p></p>
+                            <a href="javascript:;" class="thm-btn hvr-wobble-top"><span>点一下试试</span></a>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
@@ -110,15 +120,16 @@
         </section>
 
 
-        <section id="features" class="service-one">
+        <section id="blog" class="service-one">
             <div class="container">
                 <div class="block-title text-center">
                     <p>主要博客分类</p>
                     <h3>博客分类</h3>
                 </div>
                 <div class="row">
-                    <div class=" col-xl-3 col-lg-3 col-md-6 wow fadeInLeft" data-wow-duration="1500ms" v-for="kind,index in blogKinds" @click="showDetails(kind.name)">
-                        <div class="service-one__single" >
+                    <div class=" col-xl-3 col-lg-3 col-md-6 wow fadeInLeft" data-wow-duration="1500ms"
+                        v-for="(kind,index) in blogKinds" @click="showDetails(kind.name,kind.logo,kind.downloadUrl)">
+                        <div class="service-one__single">
                             <div class="service-icon" :class="icons[index%4]">
                                 <div class="icon-box" :class="iconBox[index%4]">
                                     <i :class="piloz[index%8]"></i>
@@ -130,7 +141,7 @@
                             </div>
                         </div>
                     </div>
-          
+
                 </div>
             </div>
         </section>
@@ -164,16 +175,15 @@
                                     <div class="cta-one__icon">
                                         <i class="piloz-networking color-2"></i>
                                     </div>
-                                    <h3>没脑汁 <br>
-                                        没脑汁</h3>
+                                    <h3>UI设计<br>
+                                        哪家强</h3>
                                 </div>
                             </div>
                             <div class="cta-one__text">
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eufugiat
-                                    nulla pariatur. Lorem Ipsum is simply dummy text of the printing laborum
-                                    perspiciatis unde.</p>
+                                <p>这应该是一个小仓库...but....还没开始做....maybe tomorrow....</p>
                             </div>
-                            <a href="#" class="thm-btn cta-one__btn"><span>我他妈直接进去瞧瞧 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></span></a>
+                            <a href="javascript:;" class="thm-btn cta-one__btn hvr-wobble-top"><span>我他妈直接进去瞧瞧
+                                    &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></span></a>
                         </div>
                     </div>
                 </div>
@@ -182,43 +192,46 @@
 
         <section class="video-one">
             <div class="container" style="background-image: url(assets/images/resources/video-bg-1-1.jpg);">
-                <a href="" class="video-one__btn video-popup"><i
-                        class="fa fa-play"></i></a>
+                <a href="" class="video-one__btn video-popup"><i class="fa fa-play"></i></a>
                 <div class="video-title">
-                    <h2>别看了啥也没有</h2>
+                    <h2>模块多了这里会有视频介绍</h2>
                 </div>
+
             </div>
+            <!-- <div class="video">
+            <video autoplay muted="muted" preload="preload" loop="loop" style="border-radius: 8px;box-shadow: 0px 0px 8px 3px #ccc;" src="assets/images/beta.mp4"></video>
+            </div> -->
         </section>
 
-        <section class="cta-two">
+        <section id="resume" class="cta-two py-md-5">
             <img src="assets/images/shapes/cta-2-shape-1.png" class="cta-two__bg-shape-1" alt="">
-            <div class="container">
+            <div class="container pt-md-5">
                 <div class="row">
                     <div class="col-xl-6">
                         <div class="cta-two__content">
                             <div class="block-title cus-pb">
-                                <p>Our App Feature Lists</p>
-                                <h3>Discover Tools for<br>Your Customers</h3>
+                                <p>My Personal Resume</p>
+                                <h3>求职简历</h3>
                             </div>
                             <div class="cta-two__text">
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum lorem ipsum is
-                                    simply free.</p>
+                                <p>这是我的在线简历，可以通过以下方式来联系我</p>
                             </div>
                             <ul class="list-unstyled cta-two__list">
                                 <li>
                                     <i class="fa fa-check-circle"></i>
-                                    Refresing to get such a personal touch.
+                                    电话：17866703622
                                 </li>
                                 <li>
                                     <i class="fa fa-check-circle"></i>
-                                    Duis aute irure dolor in reprehenderit in voluptate.
+                                    QQ：1098301679
+
                                 </li>
                                 <li>
                                     <i class="fa fa-check-circle"></i>
-                                    Velit esse cillum dolore eu fugiat nulla pariatur.
+                                    邮箱：dinoox@163.com
                                 </li>
                             </ul>
-                            <a href="#" class="thm-btn cta-two__btn"><span>Discover More</span></a>
+                            <a href="resume.html" class="thm-btn cta-two__btn hvr-wobble-skew"><span>查看简历</span></a>
                         </div>
                     </div>
                     <div class="col-xl-6">
@@ -270,7 +283,7 @@
                                         <li><i class="fa fa-check"></i>Upgrate options</li>
                                         <li><i class="fa fa-check"></i>Full access</li>
                                     </ul>
-                                    <a href="#" class="thm-btn pricing-one__btn"><span>Choose Plan</span></a>
+                                    <a href="javascript:;" class="thm-btn pricing-one__btn"><span>Choose Plan</span></a>
                                 </div>
                             </div>
                             <div class="col-xl-4 animated fadeInLeft">
@@ -290,7 +303,7 @@
                                         <li><i class="fa fa-check icon-color-2"></i>Upgrate options</li>
                                         <li><i class="fa fa-check icon-color-2"></i>Full access</li>
                                     </ul>
-                                    <a href="#" class="thm-btn pricing-one__btn"><span>Choose Plan</span></a>
+                                    <a href="javascript:;" class="thm-btn pricing-one__btn"><span>Choose Plan</span></a>
                                 </div>
                             </div>
                             <div class="col-xl-4 animated fadeInLeft">
@@ -310,7 +323,7 @@
                                         <li><i class="fa fa-check icon-color-3"></i>Upgrate options</li>
                                         <li><i class="fa fa-check icon-color-3"></i>Full access</li>
                                     </ul>
-                                    <a href="#" class="thm-btn pricing-one__btn"><span>Choose Plan</span></a>
+                                    <a href="javascript:;" class="thm-btn pricing-one__btn"><span>Choose Plan</span></a>
                                 </div>
                             </div>
                         </div>
@@ -334,7 +347,7 @@
                                         <li><i class="fa fa-check"></i>Upgrate options</li>
                                         <li><i class="fa fa-check"></i>Full access</li>
                                     </ul>
-                                    <a href="#" class="thm-btn pricing-one__btn"><span>Choose Plan</span></a>
+                                    <a href="javascript:;" class="thm-btn pricing-one__btn"><span>Choose Plan</span></a>
                                 </div>
                             </div>
                             <div class="col-xl-4 animated fadeInLeft">
@@ -354,7 +367,7 @@
                                         <li><i class="fa fa-check icon-color-2"></i>Upgrate options</li>
                                         <li><i class="fa fa-check icon-color-2"></i>Full access</li>
                                     </ul>
-                                    <a href="#" class="thm-btn pricing-one__btn"><span>Choose Plan</span></a>
+                                    <a href="javascript:;" class="thm-btn pricing-one__btn"><span>Choose Plan</span></a>
                                 </div>
                             </div>
                             <div class="col-xl-4 animated fadeInLeft">
@@ -374,7 +387,7 @@
                                         <li><i class="fa fa-check icon-color-3"></i>Upgrate options</li>
                                         <li><i class="fa fa-check icon-color-3"></i>Full access</li>
                                     </ul>
-                                    <a href="#" class="thm-btn pricing-one__btn"><span>Choose Plan</span></a>
+                                    <a href="javascript:;" class="thm-btn pricing-one__btn"><span>Choose Plan</span></a>
                                 </div>
                             </div>
                         </div>
@@ -583,7 +596,9 @@
                             </div>
                             <div class="accrodion-content">
                                 <div class="inner">
-                                    <p>There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam.</p>
+                                    <p>There are many variations of passages of available but majority have alteration
+                                        in some by inject humour or random words. Lorem ipsum dolor sit amet, error
+                                        insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam.</p>
                                 </div><!-- /.inner -->
                             </div>
                         </div><!-- /.accrodion-inner -->
@@ -595,7 +610,9 @@
                             </div>
                             <div class="accrodion-content">
                                 <div class="inner">
-                                    <p>There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam.</p>
+                                    <p>There are many variations of passages of available but majority have alteration
+                                        in some by inject humour or random words. Lorem ipsum dolor sit amet, error
+                                        insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam.</p>
                                 </div><!-- /.inner -->
                             </div>
                         </div><!-- /.accrodion-inner -->
@@ -607,7 +624,9 @@
                             </div>
                             <div class="accrodion-content">
                                 <div class="inner">
-                                    <p>There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam.</p>
+                                    <p>There are many variations of passages of available but majority have alteration
+                                        in some by inject humour or random words. Lorem ipsum dolor sit amet, error
+                                        insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam.</p>
                                 </div><!-- /.inner -->
                             </div>
                         </div><!-- /.accrodion-inner -->
@@ -619,7 +638,9 @@
                             </div>
                             <div class="accrodion-content">
                                 <div class="inner">
-                                    <p>There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam.</p>
+                                    <p>There are many variations of passages of available but majority have alteration
+                                        in some by inject humour or random words. Lorem ipsum dolor sit amet, error
+                                        insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam.</p>
                                 </div><!-- /.inner -->
                             </div>
                         </div><!-- /.accrodion-inner -->
@@ -740,12 +761,12 @@
                             </ul>
                             <div class="footer-menu">
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Features</a></li>
-                                    <li><a href="#">Pricing</a></li>
-                                    <li><a href="#">Team</a></li>
-                                    <li><a href="#">Screens</a></li>
-                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">首页</a></li>
+                                    <li><a href="#blog">博客</a></li>
+                                    <li><a href="#resources">资源库</a></li>
+                                    <li><a href="#resume">简历</a></li>
+                                    <li><a href="javascript:;">Screens</a></li>
+                                    <li><a href="javascript:;">News</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -781,26 +802,26 @@
             </nav>
             <div class="side-menu__sep"></div><!-- /.side-menu__sep -->
             <div class="side-menu__content">
-                <p>Lorem Ipsum is simply dummy text the printing and setting industry. Lorm Ipsum has been the
-                    industry's stanard dummy text ever.</p>
+                <p>欢迎来到我的个人网站</p>
                 <p>
-                    <a href="mailto:needhelp@apton.com">needhelp@apton.com</a><br>
-                    <a href="tel:888-999-0000">888 9990000</a>
+                    <a href="dinoox@163.com">dinoox@163.com</a><br>
+                    <a href="tel:17866703622">17866703622</a>
                 </p>
                 <div class="side-menu__social">
-                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="javascript:;"><i class="fab fa-facebook-square"></i></a>
+                    <a href="javascript:;"><i class="fab fa-twitter"></i></a>
+                    <a href="javascript:;"><i class="fab fa-instagram"></i></a>
+                    <a href="javascript:;"><i class="fab fa-pinterest-p"></i></a>
                 </div>
             </div>
         </div>
     </div>
 
+
+
     <script src="assets/js/jquery-3.5.0.min.js"></script>
+
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/bootstrap-select.min.js"></script>
-    <script src="assets/js/bootstrap-datepicker.min.js"></script>
     <script src="assets/js/isotope.js"></script>
     <script src="assets/js/jquery.ajaxchimp.min.js"></script>
     <script src="assets/js/jquery.waypoints.min.js"></script>
@@ -814,10 +835,27 @@
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/theme.js"></script>
 
-    <script src="js/axios.min.js"></script>
+    <script src="assets/js/blog-js/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="js/index.js"></script>
+    <script src="assets/js/blog-js/index.js"></script>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+    <script>
+        function changeStyle() {
+            if($(document.body).css('background-color') == 'rgb(255, 255, 255)') {
+                $(document.body).css('background-color', 'aliceblue');
+                $('.stricked-menu').css('background-color', 'aliceblue');
+            }
+                
+            else{
+                $('.stricked-menu').css('background-color', 'white');
+                $(document.body).css('background-color', 'white');  
+            }
+        }
+    </script>
 
 
 </body>

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简历</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hover.css@2.3.2/css/hover.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/poppins@4.5.2/index.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+
+    <link rel="shortcut icon" href="http://82.156.213.229/assets/images/favicon.ico">
+
+
+    <style>
+
+        #fix { 
+            position: fixed;
+            z-index: 999;
+            top: 1.2rem;
+            right: 1.2rem;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        #back { 
+            position: fixed;
+            z-index: 999;
+            top: 1.2rem;
+            left: 1.2rem;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+
+        body {
+            font-family: comic sans ms;
+            color: rgb(51, 51, 51);
+            transition: color 1s;
+            transition: background-color 0.7s;
+        }
+
+        #resume {
+            max-width: 1024px;
+        }
+
+        a {
+            color: #4183C4; 
+            cursor: pointer;
+            vertical-align: inherit !important;
+            text-decoration: underline;
+            white-space: pre-wrap;
+            /* word-wrap:break-word; */
+            word-break: break-all;
+        }
+
+        img {
+            width: 168px;
+            max-width: 100%;
+            vertical-align: middle;
+            image-orientation: from-image;
+            border-radius: 1rem;
+        }
+        hr {
+            height: 2px;
+            padding: 0;
+            margin: 6px 0 16px 0;
+            background-color: #e7e7e7;
+            border: 0 none;
+            overflow: hidden;
+            box-sizing: content-box;
+            display: block;
+            overflow: hidden;
+        }
+
+        ul {
+            list-style: square;
+            display: block;
+            padding-inline-start: 3.4rem;
+        }
+        ol {
+
+            padding-inline-start: 3.4rem;
+        }
+
+        ul li {
+            white-space: normal;
+
+        }
+        li p {
+            margin: 0.6rem 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container my-5" id="resume">
+
+        <div id="fix" class="hvr-wobble-skew">
+            <div class="fa fa-moon-o">
+            </div>
+        </div>
+
+        <div id="back" class="hvr-wobble-skew">
+            <div class="fa fa-angle-left">
+            </div>
+        </div>
+
+
+        <div id="me">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="http://82.156.213.229/assets/images/me.jpg" class="img-fluid hvr-glow">
+                </div>
+                <div class="col-md-4 ml-md-0 text-md-left text-center">
+                    <div class="col my-3 mt-5">姓名：王晓雨</div>
+                    <div class="col my-3">电话：17866703622</div>
+                    <div class="col my-3">邮箱：<a href="mailto:dinoox@163.com" target="_blank" class="hvr-wobble-top">dinoox@163.com</a></div>
+                    <div class="col my-3">状态：在校-随时到岗</div>
+                </div>
+                <div class="col-md-4 ml-md-0 text-md-left text-center">
+                    <div class="col my-3 mt-5">年龄：21岁</div>
+                    <div class="col my-3">籍贯：山东省烟台市</div>
+                    <div class="col my-3">身份：22年应届生</div>
+                    <div class="col my-3">求职意向：Java开发</div>
+                </div>
+            </div>
+            <hr class="mt-5">
+        </div>
+
+
+        <div id="graduate">
+            <div class="row mt-5">
+                <div class="col">
+                    <strong>毕业院校</strong>
+                </div>
+            </div>
+            <hr>   
+    
+    
+            <div class="row">
+                <div class="col-md-2 col-6 text-md-left">
+                    山东农业大学
+                </div>
+                <div class="col-md-2 col-6 text-md-right text-center">
+                    计算机科学与技术
+                </div>
+                <div class="col-md-2 col-6 text-md-left">
+                    本科
+                </div>
+                <div class="col-md-2 col-6 text-md-right text-center offset-md-4">
+                    2018/9-2022/6
+                </div>
+            </div>
+        </div>
+
+
+        <div id="educational">
+            <div class="row mt-5">
+                <div class="col">
+                    <strong>教育经历</strong>
+                </div>
+            </div>
+            <hr>   
+    
+            <div class="row">
+                <ul class="pr-md-0 pr-4">
+                    <li><p>英语CET-4</p></li>
+                    <li><p>平均GPA：3.7/5.0（专业前20%）</p></li>
+                    <li><p>获得过山东省软件设计大赛三等奖</p></li>
+                    <li><p>每学年均获得校级奖学金，及三好学生等评级。获得过国家励志奖学金</p></li>
+                    <li><p>主修课程：数据结构、计算机操作系统、计算机网络、计算机组成与结构、<br>算法设计与分析、数据库原理、Java系列、设计模式。主修课程均在3.8以上绩点</p></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="skill">
+            <div class="row mt-5">
+                <div class="col">
+                    <strong>专业技能</strong>
+                </div>
+            </div>
+            <hr>   
+    
+            <div class="row">
+                <ol class="pr-md-0 pr-4">
+                    <li><p>熟悉常用数据结构，熟悉顺序/链式/散列存储，实现过AVL树与红黑树</p></li>
+                    <li><p>熟悉关系型MySQL数据库的使用，了解非关系型数据库Redis</p></li>
+                    <li><p>掌握SSM（MP），SpringBoot等spring主流框架，掌握Spring、SpringMVC、SpringBoot源码，生态基本源码与设计思想</p></li>
+                    <li><p>熟悉分布式微服务的主流解决方案如SpringCloud的服务调用OpenFeign/LoadBalancer、网关Gateway<br>Alibaba的nacos，sentinel，seata。也了解旧的如Eureka、Hystrix、Config、Zuul、Bus等</p></li>
+                    <li><p>熟悉Linux的基本操作、以及在Linux上服务器的搭建、及Docker、Docker Compose的使用</p></li>
+                    <li><p>熟悉Html5，Css3，Js前端基础技术及JQuery，Bootstrap，Vue，Axios，Echarts等前端库，了解Webpack及前端模块化思想<br>有较强的阅读文档能力。会用Vuecli+elementUI开发前端</p></li>
+                    <li><p>了解主流的消息中间件RabbitMQ基本使用，会用Git</p></li>
+                    <li><p>对计算机网络 设计模式 数据结构 等课程兴趣颇深 相应的阅读过对应黑皮书</p></li>
+               
+                </ol>
+            </div>
+    
+        </div>
+
+
+        <div id="project">
+            <div class="row mt-5">
+                <div class="col">
+                    <strong>项目经历</strong>
+                </div>
+            </div>
+            <hr>  
+            <p class="col text-center mt-md-5 mt-5"><strong>智慧校园数据展示平台</strong></p> 
+            <ul class="pr-md-0 pr-4">
+                
+                <li>
+                    <p>后台用Springboot+Mybatis搭建，后台管理模块采用Thymeleaf</p>
+                    <p>前端主要BootStrap，ECharts、Vue（非模块化）、Axios等技术</p>
+                    <p>部署采用Docker-Compose</p>
+                    <p>
+                        <div class="row">
+                            <div class="col-md-7 col-12 pr-md-0 pr-4">Github地址：<a class="hvr-wobble-skew" href="https://github.com/1098301679/match.git">Match</a></div>
+                            <div class="col-md-5 col-12">网址：<a class="hvr-wobble-skew" href="http://noox.top:8000">http://noox.top:8000</a></div>				          
+                        </div>
+                    </p>
+                </li>
+    
+            </ul>
+    
+            <p class="col text-center mt-5"><strong>个人网站</strong></p> 
+            <ul class="pr-md-0 pr-4">
+                
+                <li>
+                    <p>后台用Springboot+Mybatis搭建，后台管理模块采用Thymeleaf</p>
+                    <p>前端主要BootStrap，Vue（非模块化）、Axios，所有资源采用阿里云OSS存储</p>
+                    <p>Markdown文本的解析与渲染采用markedjs与highlightjs等前端库</p>
+                    <p>部署采用Docker-Compose</p>
+                    <p>
+                        <div class="row">
+                            <div class="col-md-7  col-sm-12">Github地址：<a class="hvr-wobble-skew" href="https://github.com/1098301679/website.git">Website</a></div>
+                            <div class="col-md-4 col-sm-12">网址：<a class="hvr-wobble-skew" href="http://noox.top">http://noox.top</a></div>				          
+                        </div>
+                        
+                    </p>
+                </li>
+            </ul>
+    
+            <p class="col text-center mt-5"><strong>谷粒商城</strong></p> 
+            <ul>
+                
+                <li>
+                    <p>一个分布式的电商项目（跟着网上做的，还没完成）</p>
+                    <p>目前采用：后端：SpringCloud + SpringCloudAlibaba	前端：vuecli3 + elementUI，及一些其它的第三方技术</p>
+                    <p>
+                        <div class="row">
+                            <div class="col-12">Gitee地址：<a class="hvr-wobble-skew" href="https://gitee.com/dinosaur-wang/gulimall">Gulimall</a></div>
+                          
+                        </div>
+                        
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+
+        <div id="summary">
+            <div class="row mt-5">
+                <div class="col">
+                    <strong>个人总结</strong>
+                </div>
+            </div>
+            <hr>  
+            <div class="row">
+                <ol class="pr-md-0 pr-4">
+                    <li><p>生活中喜爱听音乐，喜欢猫科动物</p></li>
+                    <li><p>在平时的学习生活中，乐于写自己的博客和笔记，记录每天自己的学习情况和学习进度</p></li>
+                    <li><p>具备较强的自学能力、抗压能力与较强的动手能力，求知(所感兴趣的技术/方面)欲望强</p></li>
+                </ol>
+            </div>
+    
+            <div class="row mt-4 ml-1 my-5">
+                    <p class="col-12"><span class="text-success">Github：</span><a class="hvr-float-shadow" href="https://github.com/1098301679">https://github.com/1098301679</a></p>
+                    <p class="col-12 mb-md-5" style="white-space: nowrap;"><span class="text-success">CSDN：</span><a class="hvr-float-shadow" href="https://blog.csdn.net/qq_43240702" style="white-space: nowrap;">https://blog.csdn.net/qq_43240702</a></p>
+                    <p class="col-12" style="white-space: nowrap;"><span class="text-success">简历下载：</span><a class="hvr-wobble-skew" href="assets1/img/resume.png" style="white-space: nowrap;" download>PNG</a>&nbsp;&nbsp;&nbsp;<a class="hvr-wobble-skew" href="assets1/resume.pdf" style="white-space: nowrap;" download>PDF</a></p>
+                    <p class="col-12" style="white-space: nowrap;"><span class="text-success">成绩下载：</span><a class="hvr-wobble-skew" href="assets1/score.xlsx" style="white-space: nowrap;" download>成绩</a></p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script>
+
+        //ScrollReveal
+		ScrollReveal().reveal('#me')
+		ScrollReveal().reveal('#graduate', { delay: 500, duration: 1000, easing: 'ease'})
+		ScrollReveal().reveal('#educational', { delay: 1000, duration: 1000, easing: 'ease-in' })
+        var nodeArray = [
+            document.querySelector('#skill'),
+            document.querySelector('#project'),
+            document.querySelector('#summary')
+        ];
+
+        ScrollReveal().reveal(nodeArray, { delay: 500,duration: 500, easing: 'ease-in'})
+
+
+        //transition
+        let light = true;
+        let fix = document.querySelector('#fix');
+
+        fix.addEventListener('click',function () {
+            if(light) {
+                light = false;
+                document.body.style.backgroundColor = "#0e141f"
+                document.body.style.color = "#a89e8a"
+
+                let hrs = document.querySelectorAll('hr')
+                for (let hr of hrs) {
+                    hr.style.backgroundColor="#ff7c35"
+                    hr.style.opacity= 0.6
+                }
+                   
+                
+                let as = document.querySelectorAll('a')
+                for (let a of as) 
+                    a.style.color="#95b94b"    
+
+
+                let icon = document.querySelector('.fa')
+                icon.className="fa fa-sun-o"
+
+            } else {
+                light = true;
+                document.body.style.backgroundColor = "#ffffff"
+                document.body.style.color = "#333333"
+
+                let hrs = document.querySelectorAll('hr')
+                for (let hr of hrs) {
+                    hr.style.backgroundColor="#e7e7e7"
+                    hr.style.opacity= 1
+                }
+                    
+
+                let as = document.querySelectorAll('a')
+                for (let a of as) 
+                    a.style.color="#4183C4"    
+                
+                let icon = document.querySelector('.fa')
+                icon.className="fa fa-moon-o"    
+                    
+            }
+
+        })
+
+        document.querySelector('#back').addEventListener('click',function() {
+            location.href = '/'
+        })
+    </script>
+</body>
+
+</html>
